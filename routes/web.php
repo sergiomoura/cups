@@ -24,8 +24,8 @@ Route::get('/checkout', function () {
 });
 
 
-Route::get('/product', function () {
-    return view('product');
+Route::get('/product-details', function () {
+    return view('product-details');
 });
 
 Route::get('/shop', function () {

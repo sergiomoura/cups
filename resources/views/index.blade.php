@@ -69,11 +69,11 @@
             <!-- Amado Nav -->
             <nav class="amado-nav">
                 <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="product-details.html">Product</a></li>
-                    <li><a href="cart.html">Cart</a></li>
-                    <li><a href="checkout.html">Checkout</a></li>
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="/shop">Shop</a></li>
+                    <li><a href="/product-details">Product</a></li>
+                    <li><a href="/cart">Cart</a></li>
+                    <li><a href="/checkout">Checkout</a></li>
                 </ul>
             </nav>
             <!-- Button Group -->
@@ -83,7 +83,7 @@
             </div>
             <!-- Cart Menu -->
             <div class="cart-fav-search mb-100">
-                <a href="cart.html" class="cart-nav"><img src="{{url('img/core-img/cart.png')}}" alt=""> Cart <span>(0)</span></a>
+                <a href="/cart" class="cart-nav"><img src="{{url('img/core-img/cart.png')}}" alt=""> Cart <span>(0)</span></a>
                 <a href="#" class="fav-nav"><img src="{{url('img/core-img/favorites.png')}}" alt=""> Favourite</a>
                 <a href="#" class="search-nav"><img src="{{url('img/core-img/search.png')}}" alt=""> Search</a>
             </div>
@@ -103,7 +103,7 @@
 
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
-                    <a href="shop.html">
+                    <a href="/shop">
                         <img src="{{url('img/bg-img/1.jpg')}}" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
@@ -116,7 +116,7 @@
 
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
-                    <a href="shop.html">
+                    <a href="/shop">
                         <img src="{{url('img/bg-img/2.jpg')}}" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
@@ -129,7 +129,7 @@
 
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
-                    <a href="shop.html">
+                    <a href="/shop">
                         <img src="{{url('img/bg-img/3.jpg')}}" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
@@ -142,7 +142,7 @@
 
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
-                    <a href="shop.html">
+                    <a href="/shop">
                         <img src="{{url('img/bg-img/4.jpg')}}" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
@@ -155,7 +155,7 @@
 
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
-                    <a href="shop.html">
+                    <a href="/shop">
                         <img src="{{url('img/bg-img/5.jpg')}}" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
@@ -168,7 +168,7 @@
 
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
-                    <a href="shop.html">
+                    <a href="/shop">
                         <img src="{{url('img/bg-img/6.jpg')}}" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
@@ -181,7 +181,7 @@
 
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
-                    <a href="shop.html">
+                    <a href="/shop">
                         <img src="{{url('img/bg-img/7.jpg')}}" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
@@ -194,7 +194,7 @@
 
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
-                    <a href="shop.html">
+                    <a href="/shop">
                         <img src="{{url('img/bg-img/8.jpg')}}" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
@@ -207,7 +207,7 @@
 
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
-                    <a href="shop.html">
+                    <a href="/shop">
                         <img src="{{url('img/bg-img/9.jpg')}}" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
@@ -278,16 +278,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                                             <a class="nav-link" href="index.html">Home</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="shop.html">Shop</a>
+                                            <a class="nav-link" href="/shop">Shop</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="product-details.html">Product</a>
+                                            <a class="nav-link" href="/product-details">Product</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="cart.html">Cart</a>
+                                            <a class="nav-link" href="/cart">Cart</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="checkout.html">Checkout</a>
+                                            <a class="nav-link" href="/checkout">Checkout</a>
                                         </li>
                                     </ul>
                                 </div>

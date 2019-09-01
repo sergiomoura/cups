@@ -67,13 +67,14 @@
                 <a href="index.html"><img src="{{url('img/core-img/logo.png')}}" alt=""></a>
             </div>
             <!-- Amado Nav -->
+            
             <nav class="amado-nav">
                 <ul>
-                    <li class="active"><a href="/">Home</a></li>
-                    <li><a href="/shop">Shop</a></li>
-                    <li><a href="/product-details">Product</a></li>
-                    <li><a href="/cart">Cart</a></li>
-                    <li><a href="/checkout">Checkout</a></li>
+                    <li class="@yield('activeHome')"><a href="/">Home</a></li>
+                    <li class="@yield('activeShop')"><a href="/shop">Shop</a></li>
+                    <li class="@yield('activeProd')"><a href="/product-details">Product</a></li>
+                    <li class="@yield('activeCart')"><a href="/cart">Cart</a></li>
+                    <li class="@yield('activeCheck')"><a href="/checkout">Checkout</a></li>
                 </ul>
             </nav>
             <!-- Button Group -->
@@ -100,6 +101,7 @@
         <!-- Product Catagories Area Start -->
         @yield('content')
         <!-- Product Catagories Area End -->
+        
     </div>
     <!-- ##### Main Content Wrapper End ##### -->
 
@@ -154,19 +156,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#footerNavContent" aria-controls="footerNavContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
                                 <div class="collapse navbar-collapse" id="footerNavContent">
                                     <ul class="navbar-nav ml-auto">
-                                        <li class="nav-item active">
+                                        <li class="nav-item @yield('activeHome')">
                                             <a class="nav-link" href="index.html">Home</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item @yield('activeShop')">
                                             <a class="nav-link" href="/shop">Shop</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item @yield('activeProd')">
                                             <a class="nav-link" href="/product-details">Product</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item @yield('activeCart')">
                                             <a class="nav-link" href="/cart">Cart</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item @yield('activeCheck')">
                                             <a class="nav-link" href="/checkout">Checkout</a>
                                         </li>
                                     </ul>

@@ -1,5 +1,9 @@
 @extends('master')
 
+@section('activeShop')
+active
+@endsection
+
 @section('content')
     
     <div class="shop_sidebar_area">

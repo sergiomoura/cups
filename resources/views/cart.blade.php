@@ -1,5 +1,9 @@
 @extends('master')
 
+@section('activeCart')
+active
+@endsection
+
 @section('content')
     
     <div class="cart-table-area section-padding-100">

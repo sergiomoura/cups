@@ -1,4 +1,8 @@
-@extends('master',['ativo'=>'checkout'])
+@extends('master')
+
+@section('activeCheck')
+active
+@endsection
 
 @section('content')
     

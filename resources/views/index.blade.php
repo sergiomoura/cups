@@ -1,5 +1,9 @@
 @extends('master')
 
+@section('activeHome')
+active
+@endsection
+
 @section('content')
     
     <div class="products-catagories-area clearfix">

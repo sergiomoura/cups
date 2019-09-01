@@ -1,5 +1,9 @@
 @extends('master');
 
+@section('activeProd')
+active
+@endsection
+
 @section('content')
     
     <div class="single-product-area section-padding-100 clearfix">

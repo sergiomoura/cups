@@ -11,23 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-
-Route::get('/cart', function () {
-    return view('cart');
-});
-
-Route::get('/checkout', function () {
-    return view('checkout');
-});
-
-
-Route::get('/product-details', function () {
-    return view('product-details');
-});
-
-Route::get('/shop', function () {
-    return view('shop');
-});
+Route::get('/', 'PagesController@getIndex');
+Route::get('/cart', 'PagesController@getCart');
+Route::get('/checkout', 'PagesController@getCheckout');
+Route::get('/product-details', 'PagesController@getProductDetails');
+Route::get('/shop', 'PagesController@getShop');

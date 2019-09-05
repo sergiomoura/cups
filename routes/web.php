@@ -16,3 +16,5 @@ Route::get('/cart', 'PagesController@getCart');
 Route::get('/checkout', 'PagesController@getCheckout');
 Route::get('/product-details', 'PagesController@getProductDetails');
 Route::get('/shop', 'PagesController@getShop');
+
+Route::get('/admin/produtos','ProdutosController@index');
